@@ -1,6 +1,4 @@
-I see what you're aiming for! You want the README to be more like a bulleted list on GitHub, rather than a paragraph format. Here's the fixed version, formatted to be cleaner and more suitable for how it will appear on GitHub:
 
-```markdown
 # 📚 **STUDENT-SORTER** README
 
 ## ✍️ **Author**  
