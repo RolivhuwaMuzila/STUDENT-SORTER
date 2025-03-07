@@ -1,5 +1,5 @@
 
-# 📚 **STUDENT-SORTER** README
+# 📚 **STUDENT-SORTER** 
 
 ## ✍️ **Author**  
 - Rolivhuwa Muzila  
