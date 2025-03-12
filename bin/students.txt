@@ -1,5 +1,4 @@
 John Doe 85
-Jane Smith 92
-Emily Clark 78
-Michael Brown 88
-
+Jane Smi 92
+Emil Cla 78
+Mich Bro 88
