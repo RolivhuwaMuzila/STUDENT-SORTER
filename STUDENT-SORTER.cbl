@@ -1,7 +1,6 @@
       ******************************************************************
-      * Author:
-      * Date:
-      * Purpose:
+      * Author: Rolivhuwa
+      * Date: 06 march 2025
       * Tectonics: cobc
       ******************************************************************
        IDENTIFICATION DIVISION.
@@ -19,17 +18,17 @@
        FILE SECTION.
        FD STUDENT-FILE.
        01 STUDENT-RECORD.
-           05 STUDENT-NAME PIC X(30).
+           05 STUDENT-NAME PIC X(9).
            05 STUDENT-GRADE PIC 9(2).
 
        FD SORTED-STUDENT-FILE.
        01 SORTED-STUDENT-RECORD.
-           05 SORTED-NAME PIC X(30).
+           05 SORTED-NAME PIC X(9).
            05 SORTED-GRADE PIC 9(2).
 
        SD SORT-WORK-FILE.
        01 SORT-RECORD.
-           05 SORT-NAME PIC X(30).
+           05 SORT-NAME PIC X(9).
            05 SORT-GRADE PIC 9(2).
 
        WORKING-STORAGE SECTION.
@@ -38,12 +37,12 @@
 
        PROCEDURE DIVISION.
        SORT-PROCESS.
-           OPEN INPUT STUDENT-FILE.
-           OPEN OUTPUT SORTED-STUDENT-FILE.
+      *>      OPEN INPUT STUDENT-FILE.
+      *>      OPEN OUTPUT SORTED-STUDENT-FILE.
            SORT SORT-WORK-FILE ASCENDING KEY SORT-GRADE
                USING STUDENT-FILE
                GIVING SORTED-STUDENT-FILE.
-           CLOSE STUDENT-FILE.
-           CLOSE SORTED-STUDENT-FILE.
+      *>      CLOSE STUDENT-FILE.
+      *>      CLOSE SORTED-STUDENT-FILE.
 
        STOP RUN.
