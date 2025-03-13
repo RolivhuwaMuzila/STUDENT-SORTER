@@ -40,19 +40,19 @@ The COBOL program does the following:
 ## 🖥️ **Example Input** (`students.txt`):  
 ```
 John Doe 85  
-Jane Smith 92  
-Emily Clark 78  
-Michael Brown 88
+Jane Smi 92  
+Emil Cla 78  
+Mich Bro 88
 ```
 
 ---
 
 ## 📝 **Example Output** (`sorted_students.txt`):  
 ```
-Emily Clark 78  
+Emily Cla 78  
 John Doe 85  
-Michael Brown 88  
-Jane Smith 92
+Mich Bro 88  
+Jane Smi 92
 ```
 
 ---
