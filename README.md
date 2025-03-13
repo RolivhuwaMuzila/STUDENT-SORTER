@@ -1,5 +1,9 @@
 
-# 📚 **STUDENT-SORTER** 
+Here’s the rewritten version of your README file:
+
+---
+
+# 📚 **STUDENT-SORTER**
 
 ## ✍️ **Author**  
 - Rolivhuwa Muzila  
@@ -8,7 +12,7 @@
 - 06 MARCH 2025  
 
 ## 🧑‍💻 **Purpose**  
-- Sort student records based on grade  
+- To sort student records based on their grade in ascending order.  
 
 ## 🔧 **Technology**  
 - COBOL (cobc)
@@ -16,24 +20,24 @@
 ---
 
 ## 📝 **Description**  
-The **STUDENT-SORTER** program reads student records from a file, sorts them by grade in ascending order, and writes the sorted records to a new file. This helps to quickly organize student data in a readable format.
+The **STUDENT-SORTER** program is designed to read student records from a file, sort them by grade in ascending order, and save the sorted records to a new file. This program allows for the efficient organization of student data in a clear, sorted format.
 
 ---
 
 ## 📂 **File Details**  
 - **Input File**: `students.txt`  
-  - A text file containing student names and their corresponding grades.  
+  - Contains student names and their corresponding grades.  
 - **Output File**: `sorted_students.txt`  
-  - A text file where the student records are sorted by grade in ascending order.  
+  - Stores the student records sorted by grade in ascending order.  
 
 ---
 
 ## 🔍 **Program Overview**  
-The COBOL program does the following:  
-- Opens the input file (`students.txt`) to read the student data.  
-- Sorts the records by the student's grade.  
-- Saves the sorted records to `sorted_students.txt`.  
-- Closes both files after the process is completed.
+This COBOL program performs the following steps:  
+- Opens the input file (`students.txt`) to read student data.  
+- Sorts the student records by their grade.  
+- Writes the sorted records to `sorted_students.txt`.  
+- Closes both the input and output files after the operation is complete.
 
 ---
 
@@ -60,24 +64,39 @@ Jane Smi 92
 ## 💡 **How to Run**  
 1. Ensure you have a COBOL compiler (e.g., OpenCOBOL) installed.  
 2. Compile the COBOL program using the `cobc` command.  
-3. Run the compiled program, ensuring that `students.txt` is available for input.
+3. Run the compiled program, ensuring the `students.txt` file is available as input.
 
 ---
 
 ## 🚀 **Next Steps**  
-- Improve error handling for file issues (e.g., file not found).  
-- Extend functionality to sort in descending order or by multiple fields.
+- Enhance error handling to manage file issues (e.g., file not found).  
+- Expand functionality to sort in descending order or by multiple criteria.
 
 ---
 
 ## 📞 **Contact**  
-If you need any assistance, you can contact **Rolivhuwa Muzila**.
+For any assistance, feel free to reach out to **Rolivhuwa Muzila**.
 
 ---
 
 ### About  
 A COBOL program developed to read, sort, and store student records.
+
+---
+
+### **Important Notes about the Program**:
+
+- **Name Format**: The program expects a name format of 9 characters in total—5 characters for the first name and 4 characters for the surname. If the name exceeds 9 characters, the program may not work as intended.
+  
+- **Grade Format**: The grade should be entered as a 2-digit number (e.g., 90, 78). Ensure that the grade is correctly formatted to avoid errors.
+
+- **Example Input**:  
+For a name like "Roly Muz" and a grade "90", the correct input would be:  
+```
+Roly Muz 90
 ```
 
+---
 
+Let me know if you'd like any further changes!
 
