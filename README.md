@@ -1,8 +1,3 @@
-
-Here’s the rewritten version of your README file:
-
----
-
 # 📚 **STUDENT-SORTER**
 
 ## ✍️ **Author**  
@@ -95,8 +90,4 @@ For a name like "Roly Muz" and a grade "90", the correct input would be:
 ```
 Roly Muz 90
 ```
-
----
-
-Let me know if you'd like any further changes!
 
